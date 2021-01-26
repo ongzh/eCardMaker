@@ -46,7 +46,7 @@ context = ssl.create_default_context() #SSL context
 
 password = getpass.getpass()
 receivermail = sheet.cell(row,4).value 
-sendermail = "ongzh23@gmail.com"
+sendermail = "mtsa.team@gmail.com"
 
 if receivermail == "":
     print("Email not submitted")
